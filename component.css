@@ -1,0 +1,130 @@
+.m-StoryCard {
+    background: #fff;
+    position: relative;
+    margin: 0 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 15px - 15px);
+    padding: 20px;
+    padding-left: 28px;
+}
+.m-StoryCard__a-Icon {
+    border-radius: 50%;
+    fill: #fff;
+    background: #0FADC4;
+    overflow: visible;
+}
+.m-StoryCard__m-TextWrap {
+    flex: 2 1 auto;
+    order: 0;
+    padding-right: 21px;
+}
+.m-StoryCard__m-MediaWrap a, .m-StoryCard__m-MediaWrap a:visited {
+    display: block;
+}
+.m-StoryCard__m-MediaWrap {
+    position: relative;
+    flex: 0 0 355px;
+    order: 1;
+    width: 266px;
+    height: 100%;
+}
+.m-StoryCard__a-Label {
+    background: #000;
+    color: #fff;
+    padding: 3.5px 7px;
+    font-size: 12px;
+    display: none;
+    min-width: 140px;
+}
+.m-StoryCard__a-Headline {
+    margin-bottom: 10.5px;
+}
+.m-StoryCard__a-Headline a, .m-StoryCard__a-Headline a:visited {
+    display: inline-block;
+}
+.m-StoryCard__a-Headline {
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 1.2;
+    color: #202429;
+    text-transform: none;
+}
+.m-StoryCard__a-Headline a, .m-StoryCard__a-Headline a:visited {
+    color: #202429;
+}
+.m-StoryCard__a-Headline a:active, .m-StoryCard__a-Headline a:hover {
+    color: #0FADC4;
+}
+@media only screen and (min-width: 1250px) and (min-device-width: 1250px) {
+    .m-StoryCard__a-Headline {
+        padding-top: 0;
+        font-size: 32px;
+        font-weight: 200;
+        line-height: 1.2;
+    }
+}
+.m-StoryCard__a-Description p {
+    margin: 0;
+}
+.m-StoryCard__a-Description {
+    margin: 0 0 10px;
+}
+.m-StoryCard__a-Credit {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #202429;
+}
+.m-StoryCard__a-Time {
+    text-transform: uppercase;
+    color: #F36F48;
+    font-weight: 700;
+    margin: 0 0 7px 0;
+}
+.m-StoryCard__a-Image {
+    width: 266px;
+    height: 200px;
+}
+.m-StoryCard .m-MediaWrap a, .m-StoryCard .m-MediaWrap a:visited {
+    display: block;
+}
+.m-StoryCard .m-MediaWrap {
+    position: relative;
+    flex: 0 0 355px;
+    order: 1;
+    width: 266px;
+    height: 100%;
+}
+.m-StoryCard .m-MediaWrap .a-Icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    width: 61px;
+    height: 61px;
+    padding: 8px;
+    border: 5px solid #fff;
+}
+@media only screen and (min-width: 1250px) and (min-device-width: 1250px) {
+    .m-StoryCard .m-MediaWrap a, .m-StoryCard .m-MediaWrap a:visited {
+        display: block;
+    }
+}
+.m-StoryCard .a-Icon {
+    border-radius: 50%;
+    fill: #fff;
+    background: #0FADC4;
+    overflow: visible;
+}
+.m-StoryCard .m-MediaWrap a, .m-StoryCard .m-MediaWrap a:visited {
+    display: block;
+}
+.m-StoryCard .m-MediaWrap {
+    position: relative;
+    flex: 0 0 355px;
+    order: 1;
+    width: 266px;
+    height: 100%;
+}
